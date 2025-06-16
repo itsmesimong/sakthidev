@@ -8,6 +8,12 @@ const menu_data = [
   {
     id: 1,
     single_link: true,
+    title: 'Home',
+    link: '/home',
+  },
+  {
+    id: 2,
+    single_link: true,
     title: 'Contact',
     link: '/contact',
   },
@@ -21,6 +27,12 @@ export const mobile_menu = [
   
   {
     id: 1,
+    single_link: true,
+    title: 'Home',
+    link: '/home',
+  },
+  {
+    id: 2,
     single_link: true,
     title: 'Contact',
     link: '/contact',
