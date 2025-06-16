@@ -49,7 +49,7 @@ const SingleOrder = ({ params }) => {
                         <div className="col-md-4 col-sm-6">
                           <div className="invoice__left">
                             <Image src={logo} alt="logo" />
-                            <p>1 Dubai Kurukku Sandhu, <br /> Dubai Main Road, Dubai 25314 </p>
+                            <p>1 New Street, <br /> Nungambakkam Main Road, Nungambakkam 600034 </p>
                           </div>
                         </div>
                         <div className="col-md-8 col-sm-6">
