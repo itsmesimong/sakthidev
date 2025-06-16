@@ -5,7 +5,7 @@ export const reviewApi = apiSlice.injectEndpoints({
   endpoints: (builder) => ({
     addReview: builder.mutation({
       query: (data) => ({
-        url: "https://romantic-gates.203-101-41-20.plesk.page/api/review/add",
+        url: "https://aihost.in/api/review/add",
         method: "POST",
         body: data,
       }),
