@@ -9,7 +9,7 @@ const menu_data = [
     id: 1,
     single_link: true,
     title: 'Home',
-    link: '/home',
+    link: '/',
   },
   {
     id: 2,
@@ -29,7 +29,7 @@ export const mobile_menu = [
     id: 1,
     single_link: true,
     title: 'Home',
-    link: '/home',
+    link: '/',
   },
   {
     id: 2,
