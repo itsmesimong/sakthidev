@@ -5,7 +5,7 @@ export const authApi = apiSlice.injectEndpoints({
   endpoints: (builder) => ({
     // get offer coupon
     getOfferCoupons: builder.query({
-      query: () => `https://romantic-gates.203-101-41-20.plesk.page/api/coupon`,
+      query: () => `https://aihost.in/api/coupon`,
       providesTags:['Coupon'],
       keepUnusedDataFor: 600,
     }),
