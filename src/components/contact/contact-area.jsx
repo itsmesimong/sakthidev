@@ -54,7 +54,7 @@ const ContactArea = () => {
                           href="https://www.google.com/maps/"
                           target="_blank"
                         >
-                          1 Dubai Kurukku Sandhu. <br /> Dubai Main Road, Dubai 25314
+                          1 New Street. <br /> Nungambakkm Main Road, Chennai 600034
                         </a>
                       </p>
                     </div>
