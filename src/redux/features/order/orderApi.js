@@ -7,7 +7,7 @@ export const authApi = apiSlice.injectEndpoints({
     // createPaymentIntent
     createPaymentIntent: builder.mutation({
       query: (data) => ({
-        url: "https://romantic-gates.203-101-41-20.plesk.page/api/order/create-payment-intent",
+        url: "https://aihost.in/api/order/create-payment-intent",
         method: "POST",
         body: data,
       }),
@@ -25,7 +25,7 @@ export const authApi = apiSlice.injectEndpoints({
     // saveOrder
     saveOrder: builder.mutation({
       query: (data) => ({
-        url: "https://romantic-gates.203-101-41-20.plesk.page/api/order/saveOrder",
+        url: "https://aihost.in/api/order/saveOrder",
         method: "POST",
         body: data,
       }),
@@ -46,13 +46,13 @@ export const authApi = apiSlice.injectEndpoints({
     }),
     // getUserOrders
     getUserOrders: builder.query({
-      query: () => `https://romantic-gates.203-101-41-20.plesk.page/api/user-order`,
+      query: () => `https://aihost.in/api/user-order`,
       providesTags:["UserOrders"],
       keepUnusedDataFor: 600,
     }),
     // getUserOrders
     getUserOrderById: builder.query({
-      query: (id) => `https://romantic-gates.203-101-41-20.plesk.page/api/user-order/${id}`,
+      query: (id) => `https://aihost.in/api/user-order/${id}`,
       providesTags: (result, error, arg) => [{ type: "UserOrder", id: arg }],
       keepUnusedDataFor: 600,
     }),
