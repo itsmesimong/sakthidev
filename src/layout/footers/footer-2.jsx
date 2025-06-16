@@ -45,7 +45,7 @@ const FooterTwo = () => {
                             </span>
                           </div>
                           <div className="tp-footer-contact-content">
-                            <p><a href="https://www.google.com/maps/" target="_blank">1 Dubai Kurukku Sandhu. <br /> Dubai Main Road, Dubai 25314</a></p>
+                            <p><a href="https://www.google.com/maps/" target="_blank">1 New Street. <br /> Nungambakkam Main Road, Nungambakkam 600034</a></p>
                           </div>
                         </div>
                       </div>
