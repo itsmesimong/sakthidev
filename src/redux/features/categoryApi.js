@@ -5,16 +5,16 @@ export const categoryApi = apiSlice.injectEndpoints({
   endpoints: (builder) => ({
     addCategory: builder.mutation({
       query: (data) => ({
-        url: "http://10.160.21.87/:7000/api/category/add",
+        url: "https://romantic-gates.203-101-41-20.plesk.page/api/category/add",
         method: "POST",
         body: data,
       }),
     }),
     getShowCategory: builder.query({
-      query: () => `http://10.160.21.87:7000/api/category/show`
+      query: () => `https://romantic-gates.203-101-41-20.plesk.page/api/category/show`
     }),
     getProductTypeCategory: builder.query({
-      query: (type) => `http://10.160.21.87:7000/api/category/show/${type}`
+      query: (type) => `https://romantic-gates.203-101-41-20.plesk.page/api/category/show/${type}`
     }),
   }),
 });
