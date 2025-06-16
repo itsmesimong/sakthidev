@@ -28,7 +28,7 @@ const nextConfig = {
     'localhost',
     '127.0.0.1',
     '0.0.0.0',
-    '10.160.21.87', // your LAN IP
+    'sakthidev.vercel.app', // your LAN IP
   ],
 };
 
