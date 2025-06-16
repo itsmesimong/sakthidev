@@ -5,7 +5,7 @@ export const reviewApi = apiSlice.injectEndpoints({
   endpoints: (builder) => ({
     addReview: builder.mutation({
       query: (data) => ({
-        url: "http://10.160.21.87:7000/api/review/add",
+        url: "https://romantic-gates.203-101-41-20.plesk.page/api/review/add",
         method: "POST",
         body: data,
       }),
