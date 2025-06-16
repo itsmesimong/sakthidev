@@ -4,7 +4,7 @@ export const brandApi = apiSlice.injectEndpoints({
   overrideExisting:true,
   endpoints: (builder) => ({
     getActiveBrands: builder.query({
-      query: () => `http://10.160.21.87:7000/api/brand/active`
+      query: () => `https://romantic-gates.203-101-41-20.plesk.page/api/brand/active`
     }),
   }),
 });
