@@ -47,7 +47,7 @@ export default function Home() {
           <div style={modalStyle}>
             <button style={closeButtonStyle} onClick={() => setShowModal(false)}>×</button>
             <img
-              src="https://res.cloudinary.com/dg7kljtzd/image/upload/by_sakthi_jewellary2_jib7ro.png"
+              src="https://res.cloudinary.com/dg7kljtzd/image/upload/vishthavaa_nbtcmp.png"
               alt="Promotional Offer"
               style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
             />
